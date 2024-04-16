@@ -21,3 +21,11 @@ function closeBtn() {
   login.style.display = 'none';
   post.style.display = 'none';
 }
+
+window.onclick = function (event) {
+  if (event.target == overlay) {
+    overlay.style.display = 'none'
+    modal.style.display = 'none';
+    login.style.display = 'none';
+  }
+}

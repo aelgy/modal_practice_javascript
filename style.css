@@ -96,3 +96,9 @@ div .title {
   cursor: pointer;
   /* Add a pointer on hover */
 }
+
+textarea {
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px;
+}

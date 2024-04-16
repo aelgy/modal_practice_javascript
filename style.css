@@ -1,0 +1,79 @@
+body {
+  background-image: linear-gradient(to top right, #EB9FC0, #B83F8F, #2C2867);
+  height: 100vh;
+  overflow: hidden;
+}
+
+div.btn {
+  display: block;
+  margin-top: 200px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+button.loginBtn {
+  background-color: #ffffff66;
+  color: #ffffff;
+  display: inline-block;
+  margin: 0 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 0;
+}
+
+button.postBtn {
+  background-color: #ffffff66;
+  color: #ffffff;
+  display: inline-block;
+  margin: 0 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 0;
+}
+
+#modal {
+  width: 300px;
+  margin: auto;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(to top left, #C086E1, #E8ABC7);
+  min-height: 250px;
+  border-radius: 30px;
+}
+
+#login-modal {
+  position: relative;
+  align-items: left;
+  margin-left: 20%;
+  top: 30px;
+}
+
+#post-modal {
+  position: relative;
+  align-items: left;
+  margin-left: 20%;
+  top: 30px;
+}
+
+
+#btnDiv button {
+  border-radius: 5px;
+  border: 0px;
+  margin: 15px 10px 10px 5px;
+  padding: 8px;
+  font-size: 18px;
+  background-color: #AE57A4;
+  color: white;
+}
+
+input {
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px;
+}
+
+div .title {
+  margin: 5px 0px;
+}
